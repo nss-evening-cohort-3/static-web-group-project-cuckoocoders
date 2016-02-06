@@ -1,5 +1,6 @@
 body {
     background-color: brown;
+    min-width: 800px;
 }
 
 h1 {
@@ -7,10 +8,9 @@ h1 {
 }
 
 .content {
-    width: 90%;
+    width: 850px;
     display: inline-block;
     margin: 0 5%;
-    height: 600px;
 }
 
 /*Set Size and Style of Articles*/
@@ -39,6 +39,37 @@ h1 {
 }
 
 .clockMain p {
+    text-align: justify;
+    padding: 5%;
+}
+
+
+
+.productMain {
+    width: 20%;
+    margin: 1.1%;
+    background-color: rgba(234, 173, 66, 0.8);
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 2px inset black;
+}
+
+.productMain > img {
+    width: 80%;
+    border-radius: 100%;
+    margin: 5% 10%;
+    border: 2px solid black;
+}
+
+.productMain h3 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    margin: 0;
+    padding: 0; 
+}
+
+.productMain p {
     text-align: justify;
     padding: 5%;
 }
