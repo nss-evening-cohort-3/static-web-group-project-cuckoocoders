@@ -2,7 +2,7 @@ var productArray = [
     {
         img: "img/clock1.jpg",
         title: "German Glory",
-        description: "This tradionally styled German beauty is the perfect addition to the traditional home.",
+        description: "This German beauty is a nice addition to any home.",
         price: "$399.99"
 
     },
@@ -21,25 +21,25 @@ var productArray = [
     {
         img: "img/clock4.jpg",
         title: "Wood Fantasy",
-        description: "The carved wood graces the timepiece in a cluster of woodland fun.",
+        description: "Carved leaves grace the timepiece for woodland fun.",
         price: "$179.99"
     },
     {
         img: "img/clock5.jpg",
         title: "Hunter's Dream",
-        description: "From one carcass to the next, a clock only a true hunter could love.",
+        description: "From one carcass to the next, for the true hunter.",
         price: "$79.99"
     },
     {
         img: "img/clock6.jpg",
         title: "Log Cabin Frolic",
-        description: "The adorable figurines make this unique take on the cuckoo love at first sight!",
+        description: "Figurines make this cuckoo love at first sight!",
         price: "$299.99"
     },
     {
         img: "img/clock7.jpg",
         title: "Dutch Wonder",
-        description: "With a nod to traditional Dutch styling, this cuckoo fits right in.",
+        description: "Traditional Dutch styling to fit right in to any home.",
         price: "$1199.00"
     },
     {
