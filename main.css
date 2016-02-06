@@ -127,7 +127,10 @@ h1 {
     display: inline-block;
     font-family: 'Josefin Sans', sans-serif;
     border: 2px inset black;
+    float: left;
 }
+
+
 
 .productMain > img {
     width: 80%;
