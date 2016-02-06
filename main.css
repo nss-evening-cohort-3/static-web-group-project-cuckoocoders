@@ -31,3 +31,78 @@ h1 {
     text-align: justify;
     padding: 5%;
 }
+
+/* Set and style the contacts page*/
+#contactUs {
+    float: left;
+    width: 850px;
+}
+
+#contactUs h3 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    
+
+}
+
+#contactUs h4{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    
+}
+
+#contactCall {
+    border: 2px solid black;   
+    display:inline-block;
+    font-family: 'Lobster', cursive;
+    background-color:  rgba(234,173,66,0.8);
+    max-width: 20%;   
+    float:left;
+    margin-right: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 10%;
+}
+
+#contactEmail {
+   
+    border: 2px solid black;   
+    display:inline-block;
+    font-family: 'Lobster', cursive;
+    background-color:  rgba(234,173,66,0.8);
+    max-width: 25%;
+    float:left; 
+    margin-right: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#contactFace {
+    border: 2px solid black;      
+    display:inline-block;
+    font-family: 'Lobster', cursive;
+    background-color:  rgba(234,173,66,0.8);
+    max-width: 25%;
+    float:left;
+    margin-right: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+
+#contactTweet {
+    border: 2px solid black;   
+    display:inline-block;
+    font-family: 'Lobster', cursive;
+    background-color:  rgba(234,173,66,0.8);
+    max-width: 25%;
+    float:left;
+    margin-right: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.contactImg{
+    padding-left: 30%;
+    padding-right: 30%;
+}
