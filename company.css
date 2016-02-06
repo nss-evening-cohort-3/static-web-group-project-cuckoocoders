@@ -1,0 +1,53 @@
+body {
+    background-color: brown;
+}
+
+h1, h2, h3 {
+    font-family: 'Lobster', cursive;
+}
+
+
+/*Set Size and Style of Articles*/
+.companyMain {
+    width: 30%;
+    margin: 1.1% 1.25%;
+    background-color: rgba(234, 173, 66, 0.8);
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 2px inset black;
+}
+
+.companyMain > img {
+    width: 80%;
+    border-radius: 100%;
+    margin: 5% 10%;
+}
+
+.companyMain h3 {
+    text-align: center;
+}
+
+.companyMain p {
+    text-align: justify;
+    padding: 5%;
+}
+/*ul {
+  list-style: none;
+}
+li {
+    margin-top: 1em;
+}*/
+
+/*h2 {
+  text-center;
+}*/
+.mission {
+  display:  block;
+  text-align: center;
+  margin: 1em 0;
+  background-color: gray;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 850px;
+  border: 2px solid black;
+}
