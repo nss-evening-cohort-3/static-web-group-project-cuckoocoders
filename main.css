@@ -10,7 +10,7 @@ h1 {
 .content {
     width: 850px;
     display: inline-block;
-    margin: 0 5%;
+    /*margin: 0 5%;*/
 }
 
 /*Set Size and Style of Articles*/
