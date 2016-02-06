@@ -52,6 +52,10 @@ var productArray = [
 
 
 for (var i = 0; i < productArray.length; i++) {
+    var productContainer = document.getElementsByName("content");
+    productContainer += "<article>"
+
+
     console.log("[i].img", productArray[i].title);
 }
 
