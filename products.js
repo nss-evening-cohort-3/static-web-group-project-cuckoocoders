@@ -52,6 +52,18 @@ var productArray = [
 
 
 for (var i = 0; i < productArray.length; i++) {
-    console.log("[i].img", productArray[i].title);
+    var productContainer = document.getElementById("content");
+
+    productContainer.innerHTML += "<article>";
+    productContainer.className += " productMain";
+    productContainer.innerHTML += "<img src=" + '"' + productArray[i].img + '"' + ">";
+    productContainer.innerHTML += "<h3>" + productArray[i].title + "</h3>";
+    productContainer.innerHTML += "<p>" + productArray[i].description + "</p>";
+    productContainer.innerHTML += "<p>" + productArray[i].price + "</p>";
+    productContainer.innerHTML += "</article>";
+    
+
+
+    console.log("productContainer", productContainer);
 }
 

@@ -43,7 +43,6 @@ h1 {
     padding: 5%;
 }
 
-<<<<<<< HEAD
 /* Set and style the contacts page*/
 #contactUs {
     float: left;
@@ -118,7 +117,7 @@ h1 {
     padding-left: 30%;
     padding-right: 30%;
 }
-=======
+
 
 
 .productMain {
@@ -128,7 +127,10 @@ h1 {
     display: inline-block;
     font-family: 'Josefin Sans', sans-serif;
     border: 2px inset black;
+    float: left;
+    list-style: none;
 }
+
 
 .productMain > img {
     width: 80%;
@@ -149,4 +151,3 @@ h1 {
     text-align: justify;
     padding: 5%;
 }
->>>>>>> 167b1864c54153dcee0d0ab6156380c728f1d827

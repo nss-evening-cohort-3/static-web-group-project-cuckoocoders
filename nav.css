@@ -37,5 +37,9 @@ li > img {
 .nav a:hover {
     background-color: #2b2b2b;
     color: #EAAD42;
+}
 
+.nav a:active {
+    background-color: #2b2b2b;
+    color: #EAAD42;
 }
