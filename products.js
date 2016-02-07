@@ -52,18 +52,16 @@ var productArray = [
 
 
 for (var i = 0; i < productArray.length; i++) {
-    var productContainer = document.getElementById("content");
+    var productContainer = document.getElementById('a'+i);
 
-    productContainer.innerHTML += "<article>";
+    // productContainer.innerHTML += "<article>";
     productContainer.className += " productMain";
     productContainer.innerHTML += "<img src=" + '"' + productArray[i].img + '"' + ">";
     productContainer.innerHTML += "<h3>" + productArray[i].title + "</h3>";
     productContainer.innerHTML += "<p>" + productArray[i].description + "</p>";
     productContainer.innerHTML += "<p>" + productArray[i].price + "</p>";
-    productContainer.innerHTML += "</article>";
+    // productContainer.innerHTML += "</article>";  
     
-
-
-    console.log("productContainer", productContainer);
 }
 
+console.log("productContainer", productContainer);
