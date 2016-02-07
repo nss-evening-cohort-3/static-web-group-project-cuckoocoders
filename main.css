@@ -1,6 +1,7 @@
 body {
     background-color: brown;
     min-width: 800px;
+    max-width: 850px;
 }
 
 h1 {
@@ -72,7 +73,7 @@ h1 {
     margin-right: 1%;
     padding-left: 2%;
     padding-right: 2%;
-    margin-left: 10%;
+    margin-left: 4.5%;
 }
 
 #contactEmail {
@@ -113,9 +114,22 @@ h1 {
     padding-right: 2%;
 }
 
-.contactImg{
+.contactImg {
     padding-left: 30%;
     padding-right: 30%;
+}
+
+
+#contactTitle {
+  font-family: 'Lobster', cursive;
+  display:  block;
+  text-align: center;
+  margin: 1em 0;
+  background-color: gray;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 850px;
+  border: 2px solid black;
 }
 
 
@@ -148,8 +162,19 @@ h1 {
 }
 
 .productMain p {
-    text-align: justify;
-    padding: 5%;
+    font-size: 15px;
+    text-align:  center;
+    padding: 1%;
 }
 
-
+#productTitle {
+  font-family: 'Lobster', cursive;
+  display:  block;
+  text-align: center;
+  margin: 1em 0;
+  background-color: gray;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 850px;
+  border: 2px solid black;
+}
