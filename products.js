@@ -52,16 +52,35 @@ var productArray = [
 
 
 for (var i = 0; i < productArray.length; i++) {
-    var productContainer = document.getElementById('a'+i);
+     //second attempt that worked
+    // var product = document.getElementById("content");
+    
+    // product.innerHTML += "<article>" + "<img src=" + '"' + productArray[i].img + '"' + ">" +
+    // "<h3>" + productArray[i].title + "</h3>" + "<p>" + productArray[i].description + "</p>" +
+    // "<p>" + productArray[i].price + "</p>";
+    // product.innerHTML.className+=" productMain";    
 
-    // productContainer.innerHTML += "<article>";
+    var product ="";
+    product += "<article>" + "<img src=" + '"' + productArray[i].img + '"' + ">" +
+    "<h3>" + productArray[i].title + "</h3>" + "<p>" + productArray[i].description + "</p>" +
+    "<p>" + productArray[i].price + "</p>" + "</article>";
+
+    var product2 = document.getElementById("content");
+
+    product2.innerHTML += product;
+
+
+/*
+    //what was agreed to for 2/8
+    var productContainer = document.getElementById('a'+i);
+    // productContainer.innerHTML += "<article>"; -rbg removed 2/7
     productContainer.className += " productMain";
     productContainer.innerHTML += "<img src=" + '"' + productArray[i].img + '"' + ">";
     productContainer.innerHTML += "<h3>" + productArray[i].title + "</h3>";
     productContainer.innerHTML += "<p>" + productArray[i].description + "</p>";
     productContainer.innerHTML += "<p>" + productArray[i].price + "</p>";
-    // productContainer.innerHTML += "</article>";  
-    
+    // productContainer.innerHTML += "</article>";  -rbg removed 2/7
+*/    
 }
 
-console.log("productContainer", productContainer);
+console.log("product", product);
