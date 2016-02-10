@@ -1,3 +1,5 @@
+/*all page formats*/
+
 body {
     background-color: brown;
     min-width: 800px;
@@ -8,13 +10,13 @@ h1 {
     font-family: 'Lobster', cursive;
 }
 
+/*Home Page styling*/
 .content {
     width: 850px;
     display: inline-block;
-    /*margin: 0 5%;*/
 }
 
-/*Set Size and Style of Articles*/
+/
 .clockMain {
     width: 30%;
     margin: 1.1%;
@@ -53,14 +55,11 @@ h1 {
 #contactUs h3 {
     font-family: 'Lobster', cursive;
     text-align: center;
-    
-
 }
 
 #contactUs h4{
     font-family: 'Lobster', cursive;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 #contactCall {
@@ -118,8 +117,6 @@ h1 {
     padding-left: 30%;
     padding-right: 30%;
 }
-
-
 #contactTitle {
   font-family: 'Lobster', cursive;
   display:  block;
@@ -132,9 +129,8 @@ h1 {
   border: 2px solid black;
 }
 
-
-
-.productMain {
+/*Set Size and Style of Product Page*/
+.productMain article {
     width: 22%;
     margin: 1.1%;
     background-color: rgba(234, 173, 66, 0.8);
@@ -146,7 +142,7 @@ h1 {
 }
 
 
-.productMain > img {
+.productMain article > img {
     width: 80%;
     border-radius: 100%;
     margin: 5% 10%;
